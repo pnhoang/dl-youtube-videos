@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
-    // "declaration": true,
+    "declaration": true,
     "importHelpers": true,
     "module": "commonjs",
     "outDir": "lib",
     "rootDir": "src",
     "strict": true,
-    "allowJs": true,
+    // "allowJs": true,
     "noImplicitAny": false,
     "target": "es2017"
   },

@@ -1,9 +1,14 @@
-const csv = require("csv-parser");
-const fs = require("fs");
-const youtubedl = require("youtube-dl");
-const Listr = require("listr");
+import * as csv from "csv-parser";
+import * as fs from "fs";
+import * as youtubedl from "youtube-dl";
+import * as Listr from "listr";
 
-const playlist = [];
+interface IPlaylist {
+  title: string;
+  href: string;
+}
+
+const playlist: IPlaylist[] = [];
 
 const downloadVideo = href => {
   return new Promise((resolve, reject) => {
@@ -34,7 +39,7 @@ const downloadVideo = href => {
   });
 };
 
-const startDownloading = async filePath => {
+export const startDownloading = async filePath => {
   fs.createReadStream(filePath)
     .pipe(csv())
     .on("data", ({ link: title, "link-href": href }) =>
@@ -57,8 +62,4 @@ const createTasksList = async playlist => {
   );
 
   await tasks.run();
-};
-
-module.exports = {
-  startDownloading
 };

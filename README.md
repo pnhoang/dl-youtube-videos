@@ -1,6 +1,6 @@
 # dl-youtube-videos
 
-Download all Youtube Videos of a channel for Free
+Download ALL Youtube Videos of ANY channel for FREE.
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/dl-youtube-videos.svg)](https://npmjs.org/package/dl-youtube-videos)
@@ -12,6 +12,19 @@ Download all Youtube Videos of a channel for Free
 # Usage
 
 <!-- usage -->
+
+```
+    $ npm install -g dl-youtube-videos
+    $ dl-youtube-videos csvFile
+```
+
+or simly run:
+
+```
+    $ npx dl-youtube-videos csvFile
+```
+
+Check out the tutorial at: {YouTube Link} to learn how to get the csvFile using Google Chrome browser and Web Scraper extension.
 
 # Commands
 
