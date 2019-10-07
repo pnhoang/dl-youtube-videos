@@ -26,6 +26,18 @@ or simly run:
 
 Check out the tutorial at: {YouTube Link} to learn how to get the csvFile using Google Chrome browser and Web Scraper extension.
 
-# Commands
+# Example usage
 
-<!-- commands -->
+In the current project folder, run:
+
+```
+    $ npx dl-youtube-videos ./test.csv
+
+    Download started
+      ✔ Learn German online / Tina visits me. / Vocabulary apartment / lesson 15
+      ✔ Deutsch lernen mit Dialogen / Lektion 39 / Imperativ / Komparativ und Superlativ
+```
+
+The utility will download 2 sample videos from the YouTube Channel: Hallo Deutschschule. Remember to subscribe to this channel, super useful to learn German.
+
+Follow the tutorial on the YouTube link to learn more, how to get the full list of videos from any channel.
