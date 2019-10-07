@@ -1,0 +1,50 @@
+{
+  "name": "dl-youtube-videos",
+  "description": "Download all Youtube Videos of a channel for Free",
+  "version": "1.0.0",
+  "author": "Hoang Pham @pnhoang",
+  "bin": {
+    "dl-youtube-videos": "./bin/run"
+  },
+  "bugs": "https://github.com/pnhoang/dl-youtube-videos/issues",
+  "dependencies": {
+    "@oclif/command": "^1",
+    "@oclif/config": "^1",
+    "@oclif/plugin-help": "^2",
+    "csv-parser": "^2.3.1",
+    "listr": "^0.14.3",
+    "tslib": "^1",
+    "youtube-dl": "^2.0.1"
+  },
+  "devDependencies": {
+    "@oclif/tslint": "^3",
+    "@types/node": "^10",
+    "ts-node": "^8",
+    "tslint": "^5",
+    "typescript": "^3.3"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/lib"
+  ],
+  "homepage": "https://github.com/pnhoang/dl-youtube-videos",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "oclif": {
+    "bin": "dl-youtube-videos"
+  },
+  "repository": "pnhoang/dl-youtube-videos",
+  "scripts": {
+    "build": "tsc",
+    "posttest": "tslint -p . -t stylish",
+    "prepack": "rm -rf lib && tsc -b",
+    "test": "echo NO TESTS"
+  },
+  "types": "lib/index.d.ts"
+}
