@@ -24,7 +24,7 @@ or simly run:
     $ npx dl-youtube-videos csvFile
 ```
 
-Check out the tutorial at: {YouTube Link} to learn how to get the csvFile using Google Chrome browser and Web Scraper extension.
+Check out [the tutorial](https://www.youtube.com/watch?v=0Muu5jWN9Jg) to learn how to get the csvFile using Google Chrome browser and Web Scraper extension.
 
 # Example usage
 
@@ -41,3 +41,4 @@ In the current project folder, run:
 The utility will download 2 sample videos from the YouTube Channel: Hallo Deutschschule. Remember to subscribe to this channel, super useful to learn German.
 
 Follow the tutorial on the YouTube link to learn more, how to get the full list of videos from any channel.
+
